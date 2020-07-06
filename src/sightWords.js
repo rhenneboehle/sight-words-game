@@ -39,6 +39,6 @@ const sightWords = [
     'where',
     'yellow',
     'you',
-]
+];
 
-module.exports = sightWords
+module.exports = sightWords;
