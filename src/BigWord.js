@@ -1,11 +1,16 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
 
 export default class BigWord extends Component {
+    render() {
+        const bigWordStyle = {
+            fontSize: '8vw',
+            color: this.props.color,
+        };
 
-  render() {
-    return(
-      <h1>This is a big word.</h1>
-    );
-  }
-
+        return (
+            <div>
+                <h1 style={bigWordStyle}>{this.props.word}</h1>
+            </div>
+        );
+    }
 }
